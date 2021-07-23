@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;   
+    font-family: 'Signika', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(75, 71, 71);    
+}
+
+ul {
+    list-style: none;    
+    padding: 0;
+    margin: 0;
+}
+
+.ulnav {    
+    justify-content: space-evenly;   
+    display: flex; 
+}
+
+.anav {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;   
+}    
+
+.box1 {
+    width: 40%;        
+}
+
+.magyar {
+    font-size: 40px;
+    margin: 10px 0 10px 15px;
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.box2 {
+    width: 60%;  
+}
+
+.section1 {
+    background-color: black;
+}
+
+.slider-container {    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slide-container img {
+    max-width: 100%;
+    
+}
+
+
+
+h2 {   
+    font-size: 20px;
+    margin: 0 0 0 10px;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+.section3 {
+    background-color: black;
+}
+
+.text1 {
+    color: black; 
+    text-align: center;  
+}
+
+h3 {
+    padding-top: 25px;
+    color: white;    
+}
+
+
+
+
+.ulcontacto {
+    color: white; 
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.acontacto {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+    .anav {
+        padding: 5px;
+        
+    }
+
+    .container-flex {
+        flex-direction: column;
+        align-items: center;    
+    }
+   
+
+    .ulnav {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .magyar {
+        padding-top: 10px;
+        font-size: 28px;
+        display: block;
+        margin-left: 0;
+       
+    }
+    .box1 {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }    
+
+    .box2 {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }    
+    .ulpregunta {
+        flex-direction: column;
+        text-align: center;        
+    }  
+    
+}
+
+@media (max-width: 768px) {
+
+     .anav {
+        padding: 5px;
+        
+    }
+
+    .container-flex {
+        flex-direction: column;
+        align-items: center;    
+    }
+    
+    
+    .ulnav {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .magyar {
+        padding-top: 10px;
+        font-size: 28px;
+        display: block;
+        margin-left: 0;
+             
+    }
+
+
+    .box1 {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .box2 {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }    
+    .ulpregunta {
+        flex-direction: column;
+        text-align: center;        
+    }     
+     
+}
+
+
+
+
+
+
+
+
